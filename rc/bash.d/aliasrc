@@ -21,9 +21,6 @@ alias sprunge="curl -F \"sprunge=<-\" http://sprunge.us"
 alias please='sudo $(history -p !!)'
 alias serve='python -m SimpleHTTPServer'
 
-alias stats='ssh -tt parabox "/invia/bin/jump stats"'
-alias ldrms='ssh -tt parabox "/invia/bin/jump ldpa1 3200"'
-
 if [ ! -z ${SHDWUSER} ]; then
 
     # Parse the first field of the users file to find all user names

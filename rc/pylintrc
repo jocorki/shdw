@@ -5,7 +5,7 @@
 
 # Python code to execute, usually for sys.path manipulation such as
 # pygtk.require().
-init-hook=sys.path.extend(["/invia/rms/RobotCode/rms/site_packages", "/invia/rms/RobotCode/mercury/software/lib/python", "."])
+init-hook=sys.path.extend(["."])
 
 # Add files or directories to the blacklist. They should be base names, not
 # paths.
